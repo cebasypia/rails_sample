@@ -16,6 +16,8 @@ services:
     volumes:
       - .:/myapp
       - bundle:/usr/local/bundle 
+      - public-data:/myapp/public
+      - tmp-data:/myapp/tmp
     ports:
       - "3000:3000"
     depends_on:
