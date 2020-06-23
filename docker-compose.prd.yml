@@ -13,7 +13,7 @@ services:
   app:
     build:
       context: .
-    command: bundle exec rails s
+    command: bundle exec rails s -e production
     volumes:
       - .:/myapp
       - bundle:/usr/local/bundle 
