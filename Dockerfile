@@ -13,4 +13,5 @@ COPY . /myapp
 
 EXPOSE 3000
 
-# CMD ["rails", "server", "-b", "0.0.0.0"]
+# puma.sockを配置するディレクトリを作成
+RUN mkdir -p tmp/sockets
