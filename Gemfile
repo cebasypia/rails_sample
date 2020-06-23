@@ -36,6 +36,7 @@ group :development, :test do
   gem 'selenium-webdriver'
   gem 'rspec-rails'  # この行を追加
   gem "factory_bot_rails"
+  gem 'rspec_junit_formatter'
 end
 
 group :development do
